@@ -1,0 +1,6 @@
+<div class="text-center">
+  <h3>Verificador de senha</h3>
+  <input type="text" placeholder="Digite sua senha" [(ngModel)]="senha" (keyup)="verificarSenha()">
+  <p>Pontuação: {{pontuacao }}</p>
+  <p>{{frases [pontuacao]}}</p>
+</div>
